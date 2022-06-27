@@ -1,0 +1,22 @@
+{
+  "extends": "./node_modules/mwts/",
+  "ignorePatterns": [
+    "node_modules",
+    "dist",
+    "test",
+    "jest.config.js",
+    "typings"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "parser": "flow"
+      }
+    ]
+  },
+  "env": {
+    "jest": true
+  }
+}
