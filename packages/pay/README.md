@@ -1,11 +1,11 @@
 <h1 align="center">🎉🚀midway-pay🎉👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/npm/v/@aipeli/midway-pay.svg?color=succed">
-  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg " />
-  <img src="https://img.shields.io/badge/midway-%3E%3D3.0.0-blue.svg" />  
+<p align="center">
+<img src="https://img.shields.io/badge/node-%3E%3D16.0.0-blue.svg" />  
+<img src="https://img.shields.io/badge/midway-%3E%3D3.0.0-success.svg" />  
+<img src="https://img.shields.io/badge/适用-标准项目-success.svg?style=social&logo=github" /> 
 </p>
 
-## 🏠 [项目主页](https://github.com/aipeli/midway#readme)
+## 🏠 [项目主页](https://github.com/aipeli/midway-components)
 
 > 集成了 `微信支付` `支付宝支付` 支付功能
 

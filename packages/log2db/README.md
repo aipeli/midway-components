@@ -1,13 +1,11 @@
 <h1 align="center">🎉🚀midway-log2db🎉👋</h1>
-<p>
-  <a href="https://www.npmjs.com/package/@aipeli/midway-log2db" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@aipeli/midway-log2db.svg?color=succed">
-  </a>
- <a href="https://opensource.org/licenses/MIT" target="_blank"> <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg " /> </a>
-  <img src="https://img.shields.io/badge/midway-%3E%3D3.0.0-blue.svg" />  
+<p align="center">
+<img src="https://img.shields.io/badge/node-%3E%3D16.0.0-blue.svg" />  
+<img src="https://img.shields.io/badge/midway-%3E%3D3.0.0-success.svg" />  
+<img src="https://img.shields.io/badge/适用-标准项目-success.svg?style=social&logo=github" /> 
 </p>
 
-## 🏠 [项目主页](https://github.com/aipeli/midway#readme)
+## 🏠 [项目主页](https://github.com/aipeli/midway-components)
 
 > 记录 API 访问日志并保存到数据中,自动识别来访问者 IP 地址位置、用户代理信息等
 
@@ -41,19 +39,13 @@ export class ShopAdminLog2DbController extends BaseController {
   /**
    * 保存日志记录
    * http://127.0.0.1:7001/admin/shop/log2db/record
+   * @param ctx 上下文
+   * @param content 日志内容 (可选, 默认为url访问参数)
    * @returns 返回保存日志记录的ID
    */
   @Get('/record')
   async record() {
-    const result_data = await this.log2db.record(
-      this.ctx,
-      this.ctx.url.split('?')[0],
-      this.ctx.req.method === 'GET'
-        ? this.ctx.request.query
-        : this.ctx.request.body,
-      this.ctx.admin ? this.ctx.admin.userId : 1,
-      this.ctx.request.header['user-agent']
-    );
+    const result_data = await this.log2db.record(this.ctx);
     return { success: true, message: 'OK', data: result_data };
   }
 
@@ -137,21 +129,21 @@ export class ContainerLifeCycle {
 }
 ```
 
-## 🧑 开发人员
+## 🧑 [贡献【期待你的加入，共同学习】](https://github.com/aipeli/midway-components/graphs/contributors)
 
-- 🧑 aipeli
-  - 🌏 Website: http://www.fast-js.com
-  - 💼 GitHub: [@aipeli/midway](https://github.com/aipeli/midway)
+<figure>
+<a href="https://github.com/aipeli"><img src="https://avatars.githubusercontent.com/u/43819745?s=80&v=4"/></a>
+</figure>
 
-## 🤝 贡献
+## 🤝 ISSUES
 
-欢迎投稿、问题和功能请求！ [issues 地址](https://github.com/aipeli/midway/issues).
+欢迎投稿、提问和功能请求！ [issues 地址](https://github.com/aipeli/midway-components/issues).
 
 ## ⭐️ 支持
 
-如果项目对你有帮助，请给我一个 start⭐️ 吧!
+如果项目对你有帮助，请给一个 start ⭐️ 吧!
 
-- 💼 GitHub: [@aipeli/midway](https://github.com/aipeli/midway)
+- 💼 GitHub: [@midway-components](https://github.com/aipeli/midway-components)
 
 ## 📝 License
 

@@ -1,21 +1,19 @@
-<h1 align="center">🎉🚀midway-qiniu</h1>
-<p>
-  <a href="https://www.npmjs.com/package/@aipeli/midway-qiniu" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/@aipeli/midway-qiniu.svg?color=succed">
-  </a>
- <a href="https://opensource.org/licenses/ISC" target="_blank"> <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg " /> </a>
-  <img src="https://img.shields.io/badge/midway-%3E%3D3.0.0-blue.svg" />  
+<h1 align="center">🎉🚀midway-qiniu🎉👋</h1>
+<p align="center">
+<img src="https://img.shields.io/badge/node-%3E%3D16.0.0-blue.svg" />  
+<img src="https://img.shields.io/badge/midway-%3E%3D3.0.0-success.svg" />  
+<img src="https://img.shields.io/badge/适用-标准项目-success.svg?style=social&logo=github" /> 
 </p>
 
-## 七牛 🐮 免费存储空间速速注册
+## 七牛 🐮 免费存储空间快速注册
 
   <a href="https://s.qiniu.com/yUVJ3q" target="_blank">
     <img alt="" src="https://dn-lego-static.qbox.me/cps/1638268217-480x300.jpg">
   </a>
 
-## 🏠 [项目主页](https://github.com/aipeli/midway#readme)
+## 🏠 [项目主页](https://github.com/aipeli/midway-components)
 
-> 使用本组件可快速基于`midway`接入七牛海量存储系统（qiniu）
+> 使用本组件可快速基于`midway`接入七牛海量存储系统（kodo）
 
 > qiniu object storage service qiniu on MidwayJS(koa) v3.x
 
@@ -137,21 +135,21 @@ export class ContainerLifeCycle {
 }
 ```
 
-## 🧑 开发人员
+## 🧑 [贡献【期待你的加入，共同学习】](https://github.com/aipeli/midway-components/graphs/contributors)
 
-- 🧑 aipeli
-  - 🌏 Website: http://www.fast-js.com
-  - 💼 GitHub: [@aipeli/midway](https://github.com/aipeli/midway)
+<figure>
+<a href="https://github.com/aipeli"><img src="https://avatars.githubusercontent.com/u/43819745?s=80&v=4"/></a>
+</figure>
 
-## 🤝 贡献
+## 🤝 ISSUES
 
-欢迎投稿、问题和功能请求！ [issues 地址](https://github.com/aipeli/midway/issues).
+欢迎投稿、提问和功能请求！ [issues 地址](https://github.com/aipeli/midway-components/issues).
 
 ## ⭐️ 支持
 
-如果项目对你有帮助，请给我一个 start⭐️ 吧!
+如果项目对你有帮助，请给一个 start ⭐️ 吧!
 
-- 💼 GitHub: [@aipeli/midway](https://github.com/aipeli/midway)
+- 💼 GitHub: [@midway-components](https://github.com/aipeli/midway-components)
 
 ## 📝 License
 

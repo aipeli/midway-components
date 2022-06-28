@@ -1,0 +1,66 @@
+<h1 align="center">🎉🚀midway-casbin🎉👋</h1>
+<p align="center">
+<img src="https://img.shields.io/badge/node-%3E%3D16.0.0-blue.svg" />  
+<img src="https://img.shields.io/badge/midway-%3E%3D3.0.0-success.svg" />  
+<img src="https://img.shields.io/badge/适用-标准项目-success.svg?style=social&logo=github" /> 
+</p>
+
+## 🏠 [项目主页](https://github.com/aipeli/midway-components)
+
+> 集成了 `casbin` 来实现管理权限
+
+> `casbin` based on MidwayJS(koa) v3.x
+
+## 📦 环境要求
+
+- midway &gt;=3.x
+
+## 🛠️ 安装
+
+```sh
+pnpm install @aipeli/midway-casbin
+```
+
+## ✍️ 用法
+
+```typescript
+
+```
+
+## 🧪 配置
+
+> 配置 `config/config.default.ts`
+
+```typescript
+
+```
+
+> 配置 `/configuration.ts`
+
+```typescript
+
+```
+
+## 🧑 [贡献【期待你的加入，共同学习】](https://github.com/aipeli/midway-components/graphs/contributors)
+
+<figure>
+<a href="https://github.com/aipeli"><img src="https://avatars.githubusercontent.com/u/43819745?s=80&v=4"/></a>
+</figure>
+
+## 🤝 ISSUES
+
+欢迎投稿、提问和功能请求！ [issues 地址](https://github.com/aipeli/midway-components/issues).
+
+## ⭐️ 支持
+
+如果项目对你有帮助，请给一个 start ⭐️ 吧!
+
+- 💼 GitHub: [@midway-components](https://github.com/aipeli/midway-components)
+
+## 📝 License
+
+Copyright © 2022 [aipeli](https://github.com/aipeli). This project is [MIT](LICENSE) licensed.
+
+---
+
+_This README was generated with ❤️ by [fast-readme](https://www.npmjs.com/package/@fastjsui/fast-readme)_
