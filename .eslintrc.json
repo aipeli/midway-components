@@ -8,15 +8,6 @@
     "typings"
   ],
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "singleQuote": true,
-        "parser": "flow"
-      }
-    ]
-  },
-  "env": {
-    "jest": true
+    "prettier/prettier": "off"
   }
 }

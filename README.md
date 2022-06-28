@@ -2,7 +2,7 @@
   <a href="https://midwayjs.org/" target="blank"><img src="https://img.alicdn.com/imgextra/i1/O1CN01xQLU011T2R7PHksIv_!!6000000002324-2-tps-1200-616.png" width="800" alt="Midway Logo" /></a>
 <h1 align="center">🎉🚀Midway Components🎉👋</h1>
 <p align="center">
-<a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg " /></a> 
+<img src="https://img.shields.io/badge/License-MIT-yellow.svg " />
 <img src="https://img.shields.io/badge/node-%3E%3D16.0.0-blue.svg" />  
 <img src="https://img.shields.io/badge/midway-%3E%3D3.0.0-success.svg" />  
 <img src="https://img.shields.io/badge/适用-标准项目-success.svg?style=social&logo=github" />
@@ -14,16 +14,18 @@
 
 ## ✨ 组件列表
 
-| 组件名称                                                                     | 开发状态 |                                     版本号                                     | 描述                                                  |
-| :--------------------------------------------------------------------------- | -------: | :----------------------------------------------------------------------------: | :---------------------------------------------------- |
-| [@aipeli/midway-kodo](https://www.npmjs.com/package/@aipeli/midway-kodo)     |   已发布 |  ![avatar](https://img.shields.io/npm/v/@aipeli/midway-kodo.svg?color=orange)  | 上传、访问七牛上的资源                                |
-| [@aipeli/midway-casbin](https://www.npmjs.com/package/@aipeli/midway-casbin) |   已发布 | ![avatar](https://img.shields.io/npm/v/@aipeli/midway-casbin.svg?color=orange) | 通过 casbin 来实现管理权限                            |
-| [@aipeli/midway-log2db](https://www.npmjs.com/package/@aipeli/midway-log2db) |   已发布 | ![avatar](https://img.shields.io/npm/v/@aipeli/midway-log2db.svg?color=orange) | 将用户的访问日志保存到数据库                          |
+| 组件名称                                                                     | 开发状态 |                                     版本号                                     | 描述                                                              |
+| :--------------------------------------------------------------------------- | -------: | :----------------------------------------------------------------------------: | :---------------------------------------------------------------- |
+| [@aipeli/midway-curd](https://www.npmjs.com/package/@aipeli/midway-curd)     |   已发布 |  ![avatar](https://img.shields.io/npm/v/@aipeli/midway-crud.svg?color=orange)  | 根据目录结构自动生成路由（包括：add delete upate info list page） |
+| [@aipeli/midway-qiniu](https://www.npmjs.com/package/@aipeli/midway-qiniu)   |   已发布 | ![avatar](https://img.shields.io/npm/v/@aipeli/midway-qiniu.svg?color=orange)  | 上传、访问七牛上的资源                                            |
+| [@aipeli/midway-casbin](https://www.npmjs.com/package/@aipeli/midway-casbin) |   已发布 | ![avatar](https://img.shields.io/npm/v/@aipeli/midway-casbin.svg?color=orange) | 通过 casbin 来实现管理权限                                        |
+| [@aipeli/midway-log2db](https://www.npmjs.com/package/@aipeli/midway-log2db) |   已发布 | ![avatar](https://img.shields.io/npm/v/@aipeli/midway-log2db.svg?color=orange) | 将用户的访问日志保存到数据库                                      |
 
 ## 🛠️ 项目中安装组件包
 
 ```sh
-npm install @aipeli/midway-kodo
+npm install @aipeli/midway-crud
+npm install @aipeli/midway-qiniu
 npm install @aipeli/midway-casbin
 npm install @aipeli/midway-log2db
 ```
@@ -93,6 +95,13 @@ lerna publish from-git
 
 # 根据 lerna 下的 package 里面的 package.json 的 version 变动来发包
 lerna publish from-package
+
+# 检查代码
+npm run lint
+npm run lint:fix
+
+lerna run lint
+lerna run lint:fix
 ```
 
 ## 🧪 运行 demo
